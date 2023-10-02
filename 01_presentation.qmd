@@ -351,6 +351,9 @@ Source: RStudio - [Quarto PDF basics](https://quarto.org/docs/output-formats/pdf
 -   Change html document to pdf
 -   Try to render
 -   What are differences?
+-   Show TeX math
+-   Labeling of equations
+-   csl-files, and how to change citation style
 :::
 
 # Exercise
@@ -358,6 +361,7 @@ Source: RStudio - [Quarto PDF basics](https://quarto.org/docs/output-formats/pdf
 ::: nonincremental
 -   Add some headers, what does that do?
 -   Add section numbering, what does that do?
+-   Download the csl-file from a journal you like, and try changing the citation style. 
 
 ```{r, echo = FALSE}
 countdown::countdown(
