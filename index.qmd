@@ -1,6 +1,6 @@
 ---
 title: "Quartaki"
-subtitle: "--- 6 hour introduction to Quarto ---"
+subtitle: "--- 3 hour introduction to Quarto ---"
 author: Athanasia Mo Mowinckel & ANne S. Bergsaker
 ---
 
