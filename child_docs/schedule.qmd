@@ -1,13 +1,9 @@
--   Elements of a qmd ( \~ 45 minutes)
+-   Elements of a qmd ( \~ 25 minutes)
 
--   Making our first html report ( \~ 45 minutes)
+-   Install and setup ( \~ 20 minutes)
 
--   Citations & cross-references ( \~ 45 minutes)
+-   Making our first html report ( \~ 30 minutes)
 
--   Lunch ( \~ 60 minutes)
+-   Citations & cross-references ( \~ 30 minutes)
 
--   Making our first pdf report (\~ 45 minutes)
-
--   Testing journal templates ( \~ 45 minutes)
-
--   Making our first presentation ( \~ 45 minutes)
+-   Making our first pdf report (\~ 30 minutes)
