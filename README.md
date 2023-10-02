@@ -98,10 +98,8 @@ show-case the ways we can use Quarto to generate reports.
 ``` r
 # Run in R
 install.packages(c(
-  "tidyverse",     # data-wrangling
-  "knitr",         # table printing
-  "kableExtra",    # pretty table printing
-  "palmerpenguins" # dataset
+  "tinytex",       # for pdf rendering
+  "rmarkdown"      # rendering everything
 ))
 ```
 

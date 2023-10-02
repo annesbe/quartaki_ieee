@@ -106,7 +106,7 @@ countdown::countdown(
 
 ::: notes
 -   Show visual editor shortcuts and inserts
--   Start adding penguins stuff
+-   Start adding iris stuff
 -   Add columns
 :::
 
@@ -361,7 +361,7 @@ Source: RStudio - [Quarto PDF basics](https://quarto.org/docs/output-formats/pdf
 ::: nonincremental
 -   Add some headers, what does that do?
 -   Add section numbering, what does that do?
--   Download the csl-file from a journal you like, and try changing the citation style. 
+-   Download the csl-file from a journal you like, and try changing the citation style.
 
 ```{r, echo = FALSE}
 countdown::countdown(
