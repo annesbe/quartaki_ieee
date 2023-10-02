@@ -3,8 +3,6 @@ title: "Quarto"
 subtitle: "--- enables you to weave together content and executable code into a finished document --- "
 format:
   revealjs: 
-    theme: [default, lcbc-styles.scss]
-    logo: /images/lcbc_logo_wide.png
     slide-number: c/t
     incremental: true
 ---
