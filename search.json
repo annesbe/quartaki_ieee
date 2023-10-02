@@ -235,7 +235,7 @@
     "href": "00_intro.html#what-are-code-chunks",
     "title": "Quarto",
     "section": "What are code chunks?",
-    "text": "What are code chunks?\nPieces of code that will be execute on report rendering to include output in the report.\n\n\n#| label: code-example\n\nhist(mtcars$mpg)"
+    "text": "What are code chunks?\nPieces of code that will be execute on report rendering to include output in the report.\n\n\n``` {{r}}\n#| label: code-example\n\nhist(mtcars$mpg)\n```"
   },
   {
     "objectID": "00_intro.html#what-are-code-chunks-1",
