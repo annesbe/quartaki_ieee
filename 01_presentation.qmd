@@ -3,8 +3,6 @@ title: "Quarto"
 subtitle: "--- Creating documents ---"
 format:
   revealjs: 
-    theme: [default, lcbc-styles.scss]
-    logo: /images/lcbc_logo_wide.png
     slide-number: c/t
     incremental: true
 bibliography: references.bib
@@ -17,57 +15,16 @@ bibliography: references.bib
 -   Fast with little extra hassle
 -   Basic interactivity possible
 
-
 ## css and filters {.center}
 
 -   Style documents with css (cascading style sheets)
 
--   Particularly useful with divs and spans for special styling (see [Quarto documentation](https://quarto.org/docs/authoring/markdown-basics.html#divs-and-spans) for more inforamtion)
+-   Particularly useful with divs and spans for special styling (see [Quarto documentation](https://quarto.org/docs/authoring/markdown-basics.html#divs-and-spans) for more information)
 
 -   See the Pandoc documentation on [Divs and Spans](https://pandoc.org/MANUAL.html#divs-and-spans) for additional details.
 
 ::: footer
 Source: [RStudio - HTML Basics](https://quarto.org/docs/output-formats/html-code.html)
-:::
-
-# Go to RStudio
-
-::: notes
--   File \> New File \> Quarto Document
--   Have a look at its components
--   Render
--   Render on save
--   Run chunk by chunk
--   Alter chunk code to see difference
-:::
-
-## Exercise
-
-::: nonincremental
--   Write a little bit about your self.
-    A sentence or two about your background and education.
-
--   Create a list in your document, listing your favourite foods, at least the top three.
-    Render it.
-
--   Make the list *ordered.* Render it.
-
-```{r}
-#| echo: false
-countdown::countdown(
-  minutes = 10,
-  left = 0,
-  right = 0,
-  top = "40%",
-  padding = "50px",
-  margin = "10%",
-  font_size = "4em",
-  color_running_background  = "transparent",
-  color_finished_background = "#ffffff",
-  play_sound = TRUE,
-  warn_when = 30
-)
-```
 :::
 
 # Yaml
@@ -112,9 +69,8 @@ More: [RStudio - HTML yaml](https://quarto.org/docs/output-formats/html-code.htm
 # Go to RStudio
 
 ::: notes
--   Add toc
--   Alter output format
 -   Switch back to html format
+-   Add toc
 :::
 
 ## Exercise
@@ -157,12 +113,11 @@ countdown::countdown(
 ## Exercise
 
 ::: nonincremental
--   Add a section with a tip about your favourite drink
+-   Add a section with a tip about your favorite drink
 
 -   Add a horizontal rule
 
--   Add a comment.
-    What does that look like?
+-   Add a comment. What does that look like?
 
 ```{r}
 #| echo: false
@@ -214,8 +169,7 @@ countdown::countdown(
 | Theorem      | thm-         |
 
 ::: notes
-When adding cross-references, its important to have in mind the prefixes necessary to make the cross-referencing work.
-Thankfully, these are fairly straight forward, but still do require some cognitive load on our part to learn them.
+When adding cross-references, its important to have in mind the prefixes necessary to make the cross-referencing work. Thankfully, these are fairly straight forward, but still do require some cognitive load on our part to learn them.
 :::
 
 ## Go to RStudio
@@ -269,21 +223,31 @@ Have a look at @fig-counter.
 
 ## Citation control
 
-+--------------------------------------------------+--------------------------------------------------------------+
-| Markdown Format                                  | Output (author-date format)                                  |
-+==================================================+==============================================================+
-|     Blip blop bloop [see @biswal2010, pp. 33-35; | Blip blop bloop [see @biswal2010, pp. 33-35; also , chap. 1] |
-|     also @ggseg, chap. 1]                        |                                                              |
-+--------------------------------------------------+--------------------------------------------------------------+
-|     Blip blop bloop [@biswal2010, pp. 33-35,     | Blip blop bloop [@biswal2010, pp. 33-35, 38-39 and passim]   |
-|     38-39 and passim]                            |                                                              |
-+--------------------------------------------------+--------------------------------------------------------------+
-|     Blip blop bloop [@ggseg; @biswal2010].       | Blip blop bloop [@ggseg; @biswal2010].                       |
-+--------------------------------------------------+--------------------------------------------------------------+
-|     Mowinckel says blah [-@ggseg]                | Mowinckel says blah [-@ggseg]                                |
-+--------------------------------------------------+--------------------------------------------------------------+
-|     @biswal2010 says bloop.                      | @biswal2010 says bloop.                                      |
-+--------------------------------------------------+--------------------------------------------------------------+
++----------------------------------------------+--------------------------------------------------------------+
+| Markdown Format                              | Output (author-date format)                                  |
++==============================================+==============================================================+
+| ```                                          | Blip blop bloop [see @biswal2010, pp. 33-35; also , chap. 1] |
+| Blip blop bloop [see @biswal2010, pp. 33-35; |                                                              |
+| also @ggseg, chap. 1]                        |                                                              |
+| ```                                          |                                                              |
++----------------------------------------------+--------------------------------------------------------------+
+| ```                                          | Blip blop bloop [@biswal2010, pp. 33-35, 38-39 and passim]   |
+| Blip blop bloop [@biswal2010, pp. 33-35,     |                                                              |
+| 38-39 and passim]                            |                                                              |
+| ```                                          |                                                              |
++----------------------------------------------+--------------------------------------------------------------+
+| ```                                          | Blip blop bloop [@ggseg; @biswal2010].                       |
+| Blip blop bloop [@ggseg; @biswal2010].       |                                                              |
+| ```                                          |                                                              |
++----------------------------------------------+--------------------------------------------------------------+
+| ```                                          | Mowinckel says blah [-@ggseg]                                |
+| Mowinckel says blah [-@ggseg]                |                                                              |
+| ```                                          |                                                              |
++----------------------------------------------+--------------------------------------------------------------+
+| ```                                          | @biswal2010 says bloop.                                      |
+| @biswal2010 says bloop.                      |                                                              |
+| ```                                          |                                                              |
++----------------------------------------------+--------------------------------------------------------------+
 
 ## yaml settings
 
@@ -314,8 +278,10 @@ Currently, only Zotero is supported as a connected reference manager.
 
 <br>
 
-    ::: {#refs}
-    :::
+```         
+::: {#refs}
+:::
+```
 
 <br>
 
@@ -427,7 +393,6 @@ countdown::countdown(
   warn_when = 30
 )
 ```
-
 
 # Getting more help
 

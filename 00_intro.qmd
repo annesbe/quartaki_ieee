@@ -1,6 +1,6 @@
 ---
 title: "Quarto"
-subtitle: "--- enables you to weave together content and executable code into a finished document --- "
+subtitle: "--- Enables you to weave together content and executable code into a finished document --- "
 format:
   revealjs: 
     slide-number: c/t
@@ -268,14 +268,34 @@ format: revealjs
 :::
 :::
 
-# Break {.center}
+# Go to RStudio
 
-```{r, echo = FALSE}
+::: notes
+-   File \> New File \> Quarto Document
+-   Have a look at its components
+-   Render
+-   Render on save
+-   Run chunk by chunk
+-   Alter chunk code to see difference
+:::
+
+## Exercise
+
+::: nonincremental
+-   Write a little bit about your self. A sentence or two about your background and education.
+
+-   Create a list in your document, listing your favorite foods, at least the top three. Render it in html.
+
+-   Try changing output to pdf.
+
+
+```{r}
+#| echo: false
 countdown::countdown(
   minutes = 10,
   left = 0,
   right = 0,
-  top = "50%",
+  top = "40%",
   padding = "50px",
   margin = "10%",
   font_size = "4em",
@@ -285,5 +305,4 @@ countdown::countdown(
   warn_when = 30
 )
 ```
-
-------------------------------------------------------------------------
+:::
