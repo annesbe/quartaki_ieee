@@ -99,11 +99,10 @@ Extensions are a powerful way to modify and extend the behavior of Quarto.
 ::: notes
 Using these tools, you will be able to follow along everything I do, and I can help when things go wrong
 
-If you choose another setup, you are very welcome to that.
-But I will not be able to help as easily (or set aside time to do so), and you will need to think of your own code examples in other languages.
+If you choose another setup, you are very welcome to that. But I will not be able to help as easily (or set aside time to do so), and you will need to think of your own code examples in other languages.
 :::
 
-# Markdown flavours
+# Markdown flavors
 
 | Markdown type   | file extension | code chunks |
 |-----------------|----------------|-------------|
@@ -117,11 +116,13 @@ Pieces of code that will be execute *on report rendering* to include output in t
 
 ::: columns
 ::: {.column width="32%"}
+````         
 ``` {{r}}
 #| label: code-example
 
 hist(mtcars$mpg)
 ```
+````
 :::
 
 ::: {.column width="10%"}
@@ -189,7 +190,6 @@ Code chunks can be provided inside the code chunk
 :::
 :::
 
-
 # Markdown elements
 
 ## Text Formatting {.center}
@@ -197,13 +197,21 @@ Code chunks can be provided inside the code chunk
 +-----------------------------------+-------------------------------+
 | Markdown Syntax                   | Output                        |
 +===================================+===============================+
-|     *italics* and **bold**        | *italics* and **bold**        |
+| ```                               | *italics* and **bold**        |
+| *italics* and **bold**            |                               |
+| ```                               |                               |
 +-----------------------------------+-------------------------------+
-|     superscript^2^ / subscript~2~ | superscript^2^ / subscript~2~ |
+| ```                               | superscript^2^ / subscript~2~ |
+| superscript^2^ / subscript~2~     |                               |
+| ```                               |                               |
 +-----------------------------------+-------------------------------+
-|     ~~strikethrough~~             | ~~strikethrough~~             |
+| ```                               | ~~strikethrough~~             |
+| ~~strikethrough~~                 |                               |
+| ```                               |                               |
 +-----------------------------------+-------------------------------+
-|     `verbatim code`               | `verbatim code`               |
+| ```                               | `verbatim code`               |
+| `verbatim code`                   |                               |
+| ```                               |                               |
 +-----------------------------------+-------------------------------+
 
 ::: footer
@@ -259,7 +267,6 @@ format: revealjs
     -   some depending on template
 :::
 :::
-
 
 # Break {.center}
 
