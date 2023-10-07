@@ -1,7 +1,7 @@
 ---
 title: "Quartaki"
 subtitle: "--- 3 hour introduction to Quarto ---"
-author: Athanasia Mo Mowinckel & ANne S. Bergsaker
+author: Athanasia Mo Mowinckel & Anne S. Bergsaker
 ---
 
 ```{r}

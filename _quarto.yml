@@ -38,6 +38,8 @@ website:
         menu:
         - href: https://hackmd.io/@AWu8JfbKRr6CxA2o1ph1JQ/ryl9zeo9i/edit
           text: 2022-01-13 DSD UiO
+        - href: https://hackmd.io/@drmowinckels/rJ_GQUYgT
+          text: 2023-10-09 IEEE 2023 Tutorial
     right:
       - href: https://github.com/drmowinckels
         icon: github

@@ -194,25 +194,25 @@ Code chunks can be provided inside the code chunk
 
 ## Text Formatting {.center}
 
-+-----------------------------------+-------------------------------+
-| Markdown Syntax                   | Output                        |
-+===================================+===============================+
-| ```                               | *italics* and **bold**        |
-| *italics* and **bold**            |                               |
-| ```                               |                               |
-+-----------------------------------+-------------------------------+
-| ```                               | superscript^2^ / subscript~2~ |
-| superscript^2^ / subscript~2~     |                               |
-| ```                               |                               |
-+-----------------------------------+-------------------------------+
-| ```                               | ~~strikethrough~~             |
-| ~~strikethrough~~                 |                               |
-| ```                               |                               |
-+-----------------------------------+-------------------------------+
-| ```                               | `verbatim code`               |
-| `verbatim code`                   |                               |
-| ```                               |                               |
-+-----------------------------------+-------------------------------+
++-------------------------------+-------------------------------+
+| Markdown Syntax               | Output                        |
++===============================+===============================+
+| ```                           | *italics* and **bold**        |
+| *italics* and **bold**        |                               |
+| ```                           |                               |
++-------------------------------+-------------------------------+
+| ```                           | superscript^2^ / subscript~2~ |
+| superscript^2^ / subscript~2~ |                               |
+| ```                           |                               |
++-------------------------------+-------------------------------+
+| ```                           | ~~strikethrough~~             |
+| ~~strikethrough~~             |                               |
+| ```                           |                               |
++-------------------------------+-------------------------------+
+| ```                           | `verbatim code`               |
+| `verbatim code`               |                               |
+| ```                           |                               |
++-------------------------------+-------------------------------+
 
 ::: footer
 Source: [RStudio - Markdown basics](https://quarto.org/docs/authoring/markdown-basics.html)
@@ -287,7 +287,6 @@ format: revealjs
 -   Create a list in your document, listing your favorite foods, at least the top three. Render it in html.
 
 -   Try changing output to pdf.
-
 
 ```{r}
 #| echo: false
